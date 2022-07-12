@@ -1,10 +1,9 @@
 public class Main {
 
     public static void main(String[] args) throws InterruptedException {
-        int x = 228;    //114 ve 115 ortası
+        int x = 228;
         int y = 30;
         int r = 148;
-        //int f = 6;
 	String [][] board = new String[x][y];
 
         // creates eyes
