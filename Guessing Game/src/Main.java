@@ -13,7 +13,7 @@ public class Main {
     int tries = 3;
     Scanner scanner = new Scanner(System.in);
         System.out.println("You will only get 3 tries.");
-    System.out.println("Guess the coords of the secret dot.\nExample Input:"+(rand.nextInt(width-1)+1)+" "+(rand.nextInt(width-1)+1));
+    System.out.println("Guess the coords of the secret dot.\nExample Input:"+(rand.nextInt(width)+1)+" "+(rand.nextInt(width)+1));
     while (tries != 0) { //game's loop
         tries -= 1;
         int guessX = (scanner.nextInt()) - 1;
